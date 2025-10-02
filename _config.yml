@@ -152,6 +152,15 @@ paginate: 10
 # The base URL of your site
 baseurl: ""
 
+jekyll_compose:
+  # Prepopulate new posts generated via `jekyll post`.
+  default_front_matter:
+    posts:
+      author: ~
+      last_modified_at: ~
+      categories: []
+      tags: []
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
