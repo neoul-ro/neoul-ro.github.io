@@ -53,7 +53,7 @@ e.g., `neoul-ro.github.io`
 
 설치 과정은 MacOS 기준으로 작성하였다.
 
-### 1) [homebrew](https://brew.sh/)나 [Git](https://git-scm.com/)이 없다면 미리 설치하도록 하자
+### 1) [`homebrew`](https://brew.sh/)나 [`Git`](https://git-scm.com/)이 없다면 미리 설치하도록 하자
 
 ~~~bash
 # homebrew
