@@ -50,7 +50,7 @@ comments:
 ~~~
 {: file="_config.yml" }
 
-## 5) 설정 후
+## 5) 결과
 
 설정 후에 deploy한 다음 댓글을 작성하면 `neoul-ro/comments` repository에 다음처럼 issue에 해당 내용이 작성되는 것을 확인할 수 있었다.
 
