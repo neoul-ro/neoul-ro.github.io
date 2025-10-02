@@ -154,7 +154,7 @@ bundle exec jekyll serve
 ### 1) `_config.yml`{: .filepath} 설정
 
 `_config.yml`{: .filepath} 파일에서 홈페이지의 기본 설정을 할 수 있다. 나는 다음과 같이 입력하였다.  
-아바타 파일 또한 `/assets/img/avatar.png`{:.filepath} 파일로 저장하여 바꿀 수 있다.
+아바타 파일 또한 `assets/img/avatar.png`{:.filepath} 파일로 저장하여 바꿀 수 있다.
 
 ~~~yaml
 lang: ko
