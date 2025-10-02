@@ -4,9 +4,9 @@ title: 1. Github Pages 설정하기
 author: blu
 date: 2025-10-02 03:28 +0900
 tags:
-  - github
-  - github-pages
-  - jekyll
+  - Github
+  - Github Pages
+  - Jekyll
 ---
 
 ## 1. Github 계정 만들기
