@@ -215,18 +215,3 @@ Github의 Repository 설정 > Pages에서 Github Actions를 이용하여 deploy�
 [https://chirpy.cotes.page/posts/getting-started/](https://chirpy.cotes.page/posts/getting-started/)
 
 
-<!--
-## Utterances로 comment 란 설정하기
-
-새로운 글에서 설명 예정.
-
-~~~yaml
-comments:
-  provider: utterances
-  utterances:
-    repo: neoul-ro/comments
-    issue_term: pathname
-~~~
-{: file="_config.yml" }
-
--->
