@@ -1,11 +1,8 @@
 ---
+layout: post
 title: 1. Github Pages 설정하기
 author: blu
 date: 2025-10-02 03:28 +0900
-last_modified_at:
-categories:
-  - Tutorials
-  - Github Pages
 tags:
   - github
   - github-pages
