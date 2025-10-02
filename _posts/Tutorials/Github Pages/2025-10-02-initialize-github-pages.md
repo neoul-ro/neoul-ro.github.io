@@ -40,7 +40,7 @@ e.g., `neoul-ro.github.io`
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
-> 모든 reposity는 Github Pages로 호스팅이 가능하여 repo 내의 `README.md`{: .filepath}나 `index.html`{: .filepath}를 홈페이지처럼 사용할 수 있다. 이 때 도메인은 `{username}.github.io/{repo_name}`이 된다.
+> Repository는 Github Pages로 호스팅하면 `README.md`{: .filepath}나 `index.html`{: .filepath} 등을 홈페이지처럼 사용할 수 있다. 이 때 도메인은 `{username}.github.io/{repo_name}`이 된다.
 > 
 > `{username}.github.io`이름의 repository만 default 페이지인 `{username}.github.io`로 호스팅된다.
 {: .prompt-tip }
