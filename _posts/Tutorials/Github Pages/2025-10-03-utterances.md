@@ -32,7 +32,7 @@ tags:
 
 Utterances를 사용할 repository를 지정해준다. 나는 comments라는 repo를 따로 만들어서 그 곳에서 댓글을 관리하기로 했다.  
 
-![install utterances](<스크린샷 2025-10-03 오전 5.14.48.png>){: width="70%" .d-block .mx-auto }
+![install utterances](스크린샷 2025-10-03 오전 5.14.48.png){: width="70%" .d-block .mx-auto }
 
 설정 후 나오는 configuration를 통해 내 사이트에 추가할 수 있는데, 대부분의 Jekyll 테마에서는 `_config.yml`{:.filepath}에서 설정하도록 되어있다.
 
