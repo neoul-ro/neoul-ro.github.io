@@ -154,7 +154,7 @@ bundle exec jekyll serve
 아바타 파일 또한 `assets/img/avatar.png`{:.filepath} 파일로 저장하여 바꿀 수 있다.
 
 ~~~yaml
-lang: ko
+lang: ko-KR
 timezone: Asia/Seoul
 title: neoul RoAD
 tagline: Robotics & Autonomous Driving
