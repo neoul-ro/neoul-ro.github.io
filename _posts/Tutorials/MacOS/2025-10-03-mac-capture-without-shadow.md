@@ -2,7 +2,7 @@
 layout: post
 title: "[Mac OS] 맥북 스크린샷 여백 없애기"
 date: 2025-10-03 04:44 +0900
-author:
+author: blu
 tags:
 - MacOS
 - 맥북 스크린샷 여백
