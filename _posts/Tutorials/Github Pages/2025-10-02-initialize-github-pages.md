@@ -24,13 +24,13 @@ Github Pages는 Ruby 언어를 사용하는 Jekyll을 지원한다.
 테크 블로그를 위해 카테고리가 제대로 표시되고, 현재 페이지의 목차, 읽고 난 뒤에 유사한 컨텐츠를 추천, 세련된 디자인 등의 기준으로 괜찮은 테마를 찾아보았다.
 
 위 기준으로 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 테마를 선택했다.
-![[Pasted image 20251002052909.png]]
+![[image2.png]]
 
 아래의 작업은 Chirpy 테마 기준으로 작성되어 있어 다른 테마를 사용할 때와는 초기 설정 과정이 다소 다를 수 있다.
 
 ## 3. github.io Repository 만들기
 
-![[스크린샷 2025-10-02 오전 5.39.42.png]]
+![[image1.png]]
 
 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)를 내 repository로 fork한다. 이 때 repository name은 `{github-username}.github.io`로 설정하여야 한다.  
 e.g., `neoul-ro.github.io`
@@ -50,7 +50,7 @@ e.g., `neoul-ro.github.io`
 
 설치 과정은 MacOS 기준으로 작성하였다.
 
-### 1) [`homebrew`](https://brew.sh/)나 [`Git`](https://git-scm.com/)이 없다면 미리 설치하도록 하자
+### 4.1. [`homebrew`](https://brew.sh/)나 [`Git`](https://git-scm.com/)이 없다면 미리 설치하도록 하자
 
 ~~~bash
 # homebrew
@@ -60,7 +60,7 @@ e.g., `neoul-ro.github.io`
 brew install git
 ~~~
 
-### 2) `Ruby` 설치
+### 4.2. `Ruby` 설치
 
 ~~~bash
 # chruby, ruby-install 설치
@@ -95,7 +95,7 @@ open -a TextEdit ~/.zshrc
 {: .prompt-tip }
 <!-- markdownlint-restore -->
 
-### 3) `Jekyll` 설치
+### 4.3. `Jekyll` 설치
 
 ~~~bash
 # jekyll 설치
@@ -107,7 +107,7 @@ jekyll -v # should be jekyll 4.4.1 or newer
 
 ## 5. Chirpy 초기 설정
 
-### 1) `Node.js` 설치
+### 5.1. `Node.js` 설치
 
 Chirpy는 초기 설정 shell script를 통해 편하게 초기 설정이 가능하다. 하지만 초기 설정을 위해 `Node.js`가 설치되어 있어야 한다.
 
@@ -126,7 +126,7 @@ nvm current # "v22.20.0"가 출력되어야 합니다.
 npm -v # 10.9.3가 출력되어야 합니다.
 ~~~
 
-### 2) Fork한 repository를 clone한 뒤, `tools/init.sh`{:.filepath}를 이용하여 초기화한다.
+### 5.2. Fork한 repository를 clone한 뒤, `tools/init.sh`{:.filepath}를 이용하여 초기화한다.
 
 ~~~bash
 git clone https://github.com/{username}/{username}.github.io.git
@@ -148,7 +148,7 @@ bundle exec jekyll serve
 물론 로컬 서버이기 때문에 `{username}.github.io`로 접속할 수는 없다. Deploy는 [8. Github Action으로 Deploy하기](#8-github-action으로-deploy하기) 참조.
 
 ## 7. 기본 설정
-### 1) `_config.yml`{: .filepath} 설정
+### 7.1. `_config.yml`{: .filepath} 설정
 
 `_config.yml`{: .filepath} 파일에서 홈페이지의 기본 설정을 할 수 있다. 나는 다음과 같이 입력하였다.  
 아바타 파일 또한 `assets/img/avatar.png`{:.filepath} 파일로 저장하여 바꿀 수 있다.
@@ -187,7 +187,7 @@ defaults:
 ~~~
 {: file="_config.yml" }
 
-### 2) `_data/authors.yml`{: .filepath} 설정
+### 7.2. `_data/authors.yml`{: .filepath} 설정
 
 `_data/authors.yml`{: .filepath}에서 author 정보를 설정하여야 포스트 작성 시 `header`의 `author`를 인식하여 정보를 띄워준다.  실제로 띄우는 author 이름은 name 란에 정의한다. 이름을 누르면  `url`의 링크로 연결된다.
 
@@ -203,8 +203,8 @@ neoul:
 초기 설정을 완료했다면, 변경 내용을 commit, push한다.
 Github의 Repository 설정 > Pages에서 Github Actions를 이용하여 deploy한다.
 
-![[Pasted image 20251002083306.png]]
-![[Pasted image 20251002083424.png]]
+![[image3.png]]
+![[image4.png]]
 
 작성 중 빌드 오류는 Jekyll 서버 터미널에서 확인이 가능하고, Deploy에서의 빌드 오류는 repository의 Actions 탭에서 확인 가능하다.
 
