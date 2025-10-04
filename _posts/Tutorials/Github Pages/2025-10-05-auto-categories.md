@@ -31,7 +31,7 @@ categories:
 위와 같이 두 개의 값이 있다면 카테고리는 `Tutorials > Github Pages`가 된다.  
 나는 이미 포스트를 작성할 때 `_posts/Tutorials/Github Pages/` 폴더 안에 작성하기 때문에 굳이 `categories`를 따로 설정할 필요가 없었다. (이게 작성하는 입장에서도 분류하기 쉽다.)
 
-![folder](image.png){: width="30%"}
+![folder](image.png){: width="40%" .normal}
 
 ## 3. Hook으로 경로에서 카테고리 추출하기
 
